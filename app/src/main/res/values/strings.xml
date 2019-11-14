@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Meoww</string>
+    <string name="by_tapping_log_in_you_agree_with_our_nterms_of_service_and_privacy_policy">By tapping Log in, you agree with our <i><u>Terms of Service</u></i> and <i><u>Privacy Policy</u></i></string>
+    <string name="log_in_with_phone_number">LOG IN WITH PHONE NUMBER</string>
+</resources>

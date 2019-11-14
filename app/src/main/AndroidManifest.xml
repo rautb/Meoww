@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.goldenfuturecommunication.datinghunt">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".chat"></activity>
+        <activity android:name=".home" />
+        <activity
+            android:name=".photo"
+            android:theme="@style/photoTheme" />
+        <activity
+            android:name=".about"
+            android:theme="@style/aboutTheme" />
+        <activity
+            android:name=".showme"
+            android:theme="@style/showmeTheme" />
+        <activity
+            android:name=".gender"
+            android:theme="@style/genderTheme" />
+        <activity
+            android:name=".dob"
+            android:theme="@style/dobTheme" />
+        <activity
+            android:name=".name"
+            android:theme="@style/nameTheme" />
+        <activity
+            android:name=".rules"
+            android:theme="@style/rulesTheme" />
+        <activity
+            android:name=".verify_otp"
+            android:theme="@style/verifyotpTheme" />
+        <activity
+            android:name=".login"
+            android:theme="@style/loginTheme" />
+        <activity
+            android:name=".activitymain2"
+            android:theme="@style/activitymain2Theme" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

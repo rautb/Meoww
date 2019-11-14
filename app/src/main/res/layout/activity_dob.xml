@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dob"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My \nbirthday is"
+        android:padding="10dp"
+        android:textColor="#000000"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:fontFamily="sans-serif-thin"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp">
+    </TextView>
+
+    <EditText
+        android:id="@+id/dobt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:hint="M M/ D D/ Y Y Y Y"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="90dp"
+        android:inputType="date"
+        android:gravity="center_horizontal"
+        android:singleLine="true">
+    </EditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your age will be public"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:textAllCaps="false">
+    </TextView>
+
+    <Button
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/login_button"
+        android:text="      Continue"
+        android:drawableRight="@drawable/ic_arrow_forward_black_24dp"
+        android:paddingRight="15dp"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:id="@+id/dob"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".gender"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My \ngender is"
+        android:padding="10dp"
+        android:textColor="#000000"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:fontFamily="sans-serif-thin"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/woman"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="WOMAN"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:background="@drawable/roundedcorner1"
+        android:textAllCaps="true"
+        android:padding="15dp"
+        android:layout_marginTop="90dp"
+        android:gravity="center_horizontal"
+       >
+    </TextView>
+    <TextView
+        android:id="@+id/man"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="MAN"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:background="@drawable/roundedcorner1"
+        android:textAllCaps="true"
+        android:padding="15dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center_horizontal"
+        >
+    </TextView>
+    <TextView
+        android:id="@+id/other"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="OTHERS"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:background="@drawable/roundedcorner1"
+        android:textAllCaps="true"
+        android:padding="15dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center_horizontal"
+        >
+    </TextView>
+
+    <CheckBox
+        android:id="@+id/check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show my gender on my profile"
+        android:textAllCaps="false"
+
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp">
+    </CheckBox>
+
+
+
+    <Button
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/login_button"
+        android:text="      Continue"
+        android:drawableRight="@drawable/ic_arrow_forward_black_24dp"
+        android:paddingRight="15dp"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/gender"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".name"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My \nname is"
+        android:padding="10dp"
+        android:textColor="#000000"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:fontFamily="sans-serif-thin"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp">
+    </TextView>
+
+    <EditText
+        android:id="@+id/fname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:hint="First Name"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:inputType="text"
+        android:singleLine="true">
+    </EditText>
+
+    <EditText
+        android:id="@+id/lname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:hint="Last Name"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:inputType="text"
+        android:singleLine="true"
+        android:layout_marginBottom="10dp">
+    </EditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is how it will apeear in Dating Hunt"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:textAllCaps="false">
+    </TextView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/login_button"
+        android:text="      Continue"
+        android:drawableRight="@drawable/ic_arrow_forward_black_24dp"
+        android:paddingRight="15dp"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:id="@+id/name"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

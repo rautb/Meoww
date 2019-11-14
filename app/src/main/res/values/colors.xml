@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1058B6</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="bakcolor">#00CF357A</color>
+    <color name="makcolor">#38f175a9</color>
+    <color name="makcolor1">#41a09e9e</color>
+</resources>
