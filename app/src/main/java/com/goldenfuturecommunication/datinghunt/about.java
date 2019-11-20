@@ -57,6 +57,7 @@ public class about extends AppCompatActivity {
                         i.putExtra("ingen",ingen);
                         i.putExtra("about",aboutu.getText().toString().trim());
                         startActivity(i);
+
                     }
                 },3000);
 

@@ -73,17 +73,12 @@ public class photo extends AppCompatActivity {
         done.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                pb.setVisibility(View.VISIBLE);
-                new Handler().postDelayed(new Runnable() {
-                    @Override
-                    public void run() {
-                        Toasty.success(getApplicationContext(), "Photo upload Success!", Toast.LENGTH_SHORT, true).show();
+
                         Intent i = new Intent(getApplicationContext(), home.class);
                         imgupload iu = new imgupload();
                         new Thread(iu).start();
                         startActivity(i);
-                    }
-                    },3000);
+
             }
         });
 
@@ -127,7 +122,6 @@ public class photo extends AppCompatActivity {
 
             try {
                 bitmap = MediaStore.Images.Media.getBitmap(getContentResolver(), uri);
-
 
                 pesimg.setImageBitmap(bitmap);
             } catch (IOException e) {
@@ -186,7 +180,6 @@ public class photo extends AppCompatActivity {
                     }
                 })
                 .show();
-
     }
     class imgupload implements Runnable{
         @Override
@@ -202,7 +195,7 @@ public class photo extends AppCompatActivity {
             }, new Response.ErrorListener() {
                 @Override
                 public void onErrorResponse(VolleyError error) {
-                    Toast.makeText(photo.this, "SomeError Occurred!", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(photo.this, "Success", Toast.LENGTH_SHORT).show();
 //                    progressDialog.dismiss();
                 }
             }){

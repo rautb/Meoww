@@ -30,6 +30,7 @@
         android:layout_marginRight="30dp"
         android:hint="Details about yourself"
         android:paddingLeft="10dp"
+        android:textSize="25sp"
         android:layout_marginTop="90dp"
         android:gravity="center_horizontal"
         android:minWidth="400dp"
@@ -39,7 +40,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="This is how it will appear in Daily Hunt"
+        android:text="This is how it will appear in Meoww account"
         android:gravity="center_horizontal"
         android:layout_marginTop="5dp"
         android:textAllCaps="false">

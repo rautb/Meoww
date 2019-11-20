@@ -9,6 +9,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import static com.goldenfuturecommunication.datinghunt.R.drawable.roundedcorner2;
+
 public class showme extends AppCompatActivity implements View.OnClickListener {
     Button showme;
     TextView inwo,inman,inoth;
@@ -57,24 +59,33 @@ public class showme extends AppCompatActivity implements View.OnClickListener {
         {
             case R.id.inwo:
                 inwo.getText().toString().trim();
-                inwo.setTextColor(Color.BLUE);
+                inwo.setTextColor(Color.WHITE);
+                inwo.setBackgroundResource(roundedcorner2);
+                inman.setBackgroundResource(R.drawable.roundedcorner1);
+                inoth.setBackgroundResource(R.drawable.roundedcorner1);
                 inman.setTextColor(Color.BLACK);
                 inoth.setTextColor(Color.BLACK);
-                ingen="Woman";
+                genderw="Woman";
                 break;
             case R.id.inman:
                 inman.getText().toString().trim();
-                inman.setTextColor(Color.BLUE);
+                inman.setBackgroundResource(roundedcorner2);
+                inman.setTextColor(Color.WHITE);
+                inwo.setBackgroundResource(R.drawable.roundedcorner1);
+                inoth.setBackgroundResource(R.drawable.roundedcorner1);
                 inwo.setTextColor(Color.BLACK);
                 inoth.setTextColor(Color.BLACK);
-                ingen="Man";
+                genderw="Man";
                 break;
             case R.id.inoth:
                 inoth.getText().toString().trim();
-                inoth.setTextColor(Color.BLUE);
+                inoth.setBackgroundResource(roundedcorner2);
+                inwo.setBackgroundResource(R.drawable.roundedcorner1);
+                inman.setBackgroundResource(R.drawable.roundedcorner1);
+                inoth.setTextColor(Color.WHITE);
                 inman.setTextColor(Color.BLACK);
                 inwo.setTextColor(Color.BLACK);
-                ingen="Others";
+                genderw="Others";
                 break;
         }
     }

@@ -1,42 +1,42 @@
 {
   "project_info": {
-    "project_number": "532904759346",
-    "firebase_url": "https://dating-hunt-a1958.firebaseio.com",
-    "project_id": "dating-hunt-a1958",
-    "storage_bucket": "dating-hunt-a1958.appspot.com"
+    "project_number": "421365246503",
+    "firebase_url": "https://meoww-fd28d.firebaseio.com",
+    "project_id": "meoww-fd28d",
+    "storage_bucket": "meoww-fd28d.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:532904759346:android:e3b17dd480adbe0a976c2b",
+        "mobilesdk_app_id": "1:421365246503:android:f0da93c5ac4b71cfb2fc02",
         "android_client_info": {
-          "package_name": "com.goldenfuturecommunication.datinghunt"
+          "package_name": "com.goldenfuturecommunication.meoww"
         }
       },
       "oauth_client": [
         {
-          "client_id": "532904759346-5otr3bmb048jceqvc7mubjjuk18u83ml.apps.googleusercontent.com",
+          "client_id": "421365246503-oktirrmklgt5laan9fo74a0vj3hk61sa.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.goldenfuturecommunication.datinghunt",
+            "package_name": "com.goldenfuturecommunication.meoww",
             "certificate_hash": "83098a9339338352b7e16cf9d1fa5a9918ae0023"
           }
         },
         {
-          "client_id": "532904759346-ckhf67hivrcvrfo60pkjliid4ljd1lpl.apps.googleusercontent.com",
+          "client_id": "421365246503-18b2omvoejp7j5dhg7loenpafju0vdeu.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBxlDpSnDoaLPUBPyD2IK4728U4iyej2KY"
+          "current_key": "AIzaSyB4jDUAS1txMIBw7bwOpCu1_2Jjg04gs8g"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "532904759346-ckhf67hivrcvrfo60pkjliid4ljd1lpl.apps.googleusercontent.com",
+              "client_id": "421365246503-18b2omvoejp7j5dhg7loenpafju0vdeu.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

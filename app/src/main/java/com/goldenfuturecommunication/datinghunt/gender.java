@@ -9,6 +9,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import static com.goldenfuturecommunication.datinghunt.R.drawable.roundedcorner2;
+
 public class gender extends AppCompatActivity implements View.OnClickListener {
 
     Button gender;
@@ -58,21 +60,30 @@ public class gender extends AppCompatActivity implements View.OnClickListener {
         {
             case R.id.woman:
                 woman.getText().toString().trim();
-                woman.setTextColor(Color.BLUE);
+                woman.setTextColor(Color.WHITE);
+                woman.setBackgroundResource(roundedcorner2);
+                man.setBackgroundResource(R.drawable.roundedcorner1);
+                other.setBackgroundResource(R.drawable.roundedcorner1);
                 man.setTextColor(Color.BLACK);
                 other.setTextColor(Color.BLACK);
                 genderw="Woman";
                 break;
             case R.id.man:
                 man.getText().toString().trim();
-                man.setTextColor(Color.BLUE);
+                man.setBackgroundResource(roundedcorner2);
+                man.setTextColor(Color.WHITE);
+                woman.setBackgroundResource(R.drawable.roundedcorner1);
+                other.setBackgroundResource(R.drawable.roundedcorner1);
                 woman.setTextColor(Color.BLACK);
                 other.setTextColor(Color.BLACK);
                 genderw="Man";
                 break;
             case R.id.other:
                 other.getText().toString().trim();
-                other.setTextColor(Color.BLUE);
+                other.setBackgroundResource(roundedcorner2);
+                woman.setBackgroundResource(R.drawable.roundedcorner1);
+                man.setBackgroundResource(R.drawable.roundedcorner1);
+                other.setTextColor(Color.WHITE);
                 man.setTextColor(Color.BLACK);
                 woman.setTextColor(Color.BLACK);
                 genderw="Others";
